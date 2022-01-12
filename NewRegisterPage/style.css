@@ -1,0 +1,53 @@
+.body{
+    background-color: rgb(213, 141, 235);
+}
+.c1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+
+}
+.c2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.c3{
+     margin: 5px;
+     box-sizing: ;
+}
+.special{
+    color: #fff;
+    font-size: 2em;
+    transition: all 0.3s linear;
+}
+.sticky{
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    width: 100%;
+}
+.main-nav{
+    list-style: none;
+    margin: 0;
+    font-size: 0.7em;
+}
+.main-nav>li{
+    display: inline-block;
+    padding: 20px;
+}
+li > a{
+    color: #f5f5f6;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px darkslateblue;
+}
+li > a:hover{
+    color: rgb(14, 18, 223);
+}
+.special:hover{
+    box-shadow: rgb(6, 80, 216) 0px 5px 15px;
+    inset: rgba(0,0,0,0.1)0px -10px 20px;
+}
